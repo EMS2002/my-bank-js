@@ -56,7 +56,9 @@ function escolheOpcao(opcao) {
             console.log('Listando contas: ');
             bd.listarContas();
             break;
-
+        case 9:
+            console.log('Saindo da aplicação.');
+            break;
         default:
             console.log("Opção inválida");
     }
